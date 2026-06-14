@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL;
+const API_URL = 'https://password-reset-2-6w12.onrender.com/api/auth';
 
 const RegisterPage = () => {
   const navigate = useNavigate();
